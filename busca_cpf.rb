@@ -1,5 +1,10 @@
 require "cpf_cnpj"
 
+##
+# The function `validar_cpf` takes a CPF number as input and checks if it is valid or not.
+# 
+# Args:
+#   cpf: The parameter "cpf" is a string representing a CPF number.
 def validar_cpf(cpf)
     novoCPF = CPF.new(cpf)
     cpf_formatado = novoCPF.stripped
